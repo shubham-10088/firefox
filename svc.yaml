@@ -7,5 +7,6 @@ spec:
     firefox: myapp
   type: LoadBalancer
   ports:
-  - port: 2000
+  - port: 443
     targetPort: 3000
+
