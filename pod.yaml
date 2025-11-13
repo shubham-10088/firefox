@@ -7,7 +7,8 @@ metadata:
 spec:
   containers:
   - name: firefox-container
-    image: linuxserver/firefox:1.2404.1
+    image: lscr.io/linuxserver/firefox:latest
     ports:
       - containerPort: 3000
+
 
